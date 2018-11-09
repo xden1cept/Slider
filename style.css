@@ -1,0 +1,146 @@
+* {box-sizing:border-box}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: #fcac45;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none
+}
+body{
+    font-family: 'Open Sans', sans-serif
+}
+.header__logo{
+    text-shadow: 1px 1px 1px rgba(1, 2, 2, .9);
+    color: blanchedalmond;
+    font-family: Lobster;
+    font-size: 51px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-bottom: 27px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: #000;
+    z-index: 2;
+    display: flex;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+    background-color: rgba(0,0,0,.5)
+}
+nav{
+    margin-top: 15px;
+    margin-left: 25%
+}
+.topnav a{
+    color:white;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-transform: uppercase
+}
+.topnav a:hover{
+    color: blanchedalmond;
+    border-top: 2px solid #fcac45;
+}
+.topnav .icon {
+    display: none;
+}
+@media screen and (max-width: 1380px){
+  nav{
+      margin-top: 15px;
+      margin-left: 20%;
+  }
+
+
+
+@media screen and (max-width: 1250px){
+  nav{
+      margin-left: 10%;
+  }
+.about_text{
+  font-size: 15px;
+}
+  
+@media screen and (max-width: 1130px){
+  nav{
+      margin-left: 5%;
+  }
+  .about_text{
+    font-size: 13px;
+  }
+  .topnav a{
+  font-size: 12px;
+
+}
+
+@media screen and (max-width: 950px){
+  nav{
+      margin-top: 1%;
+      margin-left: 1%;
+  }
+  .wrap{
+    margin-left: 9.5%;
+  }
+
+
+@media screen and (max-width: 850px) {
+  .topnav a:hover{
+    border-top: 0;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__logo"><p>Slider</p></div>
+        <nav>
+			<div class="topnav" id="myTopnav">
+				<a href="#"  class="submenu">Home</a>
+				<a href="#" class="submenu">Features</a>
+				<a href="#" class="submenu">Gallery</a>
+				<a href="#" class="submenu">Video</a>
+				<a href="#" class="submenu">Prices</a>
+				<a href="#" class="submenu">Testimonials</a>
+				<a href="#" class="submenu">Download</a>
+				<a href="#" class="submenu">Contact</a>
+				<a href="#" id="menu" class="icon">&#9776;</a>
+			</div>
+		</nav>
+    </header>
+<div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="3.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+    <script src="script.js"></script>  
+</body>
+</html>
