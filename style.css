@@ -106,6 +106,7 @@ nav{
       margin-top: 15px;
       margin-left: 20%;
   }
+}
 
 
 
@@ -115,6 +116,7 @@ nav{
   }
 .about_text{
   font-size: 15px;
+  }
 }
   
 @media screen and (max-width: 1130px){
@@ -126,6 +128,7 @@ nav{
   }
   .topnav a{
   font-size: 12px;
+  }
 
 }
 
@@ -137,10 +140,11 @@ nav{
   .wrap{
     margin-left: 9.5%;
   }
-
+}
 
 @media screen and (max-width: 850px) {
   .topnav a:hover{
     border-top: 0;
+  }
 }
 
