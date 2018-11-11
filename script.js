@@ -21,3 +21,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+var difblock = document.getElementsByClassName('difblock')[0];
+difblock.onclick = function(){
+  if(difblock.className === "difblock"){
+    difblock.className = "difblockchange";
+  }
+  else{
+    difblock.className = "difblock"
+  }
+}

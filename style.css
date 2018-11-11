@@ -101,6 +101,20 @@ nav{
 .topnav .icon {
     display: none;
 }
+.difblock{
+  transition: 0.5s ease-in;
+  background-color: blanchedalmond;
+  margin: 0 auto;
+  width: 20%;
+  height: 90px;
+}
+.difblockchange{
+  transition: 0.5s ease-in-out;
+  background-color: navy;
+  width: 60%;
+  height: 140px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 1380px){
   nav{
       margin-top: 15px;
